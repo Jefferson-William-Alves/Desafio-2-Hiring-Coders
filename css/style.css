@@ -73,6 +73,12 @@ body {
 	background-color: #8023A8;
 }
 
+input:focus{
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
 .section2{
 	max-width: 1000px;
 	overflow: hidden;
@@ -155,7 +161,7 @@ footer{
 .contacts img{
 	display: flex;
 	margin: 0 auto;
-	max-width: 30%;
+	max-width: 15%;
 }
 
 .contacts p{
@@ -183,7 +189,7 @@ footer{
 .dev img{
 	display: flex;
 	margin: 0 auto;
-	max-width: 15%;
+	max-width: 5%;
 	padding: 2px;
 }
 
@@ -199,6 +205,7 @@ footer{
 	.section2 div{width:100%; }
 	.card{ flex-basis: 100%; }
 	.contacts div{flex-basis: 100%;}
+	.dev img{ max-width: 15%;}
 }
 
 
