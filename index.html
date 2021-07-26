@@ -2,147 +2,144 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gerenciador de cadastros</title>
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-	<title>Orquídeas R.A</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
 </head>
 
 <body>
-	<section class="logo">
-		<img src="assets/RA.png" alt="logotipo Orquídeas R.A">
-	</section>
-	
-	<section class="section1">
 
-		<div class="card">
-			<h3>Cattleya Trianae</h3>
-			<img src="assets/CattleyaTrianae.jpg" alt="Orquídea Cattleya Trianae">
-			<p class="description">Super desconto de Black Friday! 50% de desconto!</p>
-			<span class="price">Preço: Cadastre-se.</span>
-			<button class="buy">COMPRAR</button>
+	<form action="" id="form">
+		<h2>
+			Cadastrar cliente
+		</h2>
+
+		<div class="input">
+			<label>Nome</label>
+			<input id="nome" required type="text" />
+			<span class="error"></span>
 		</div>
 
-		<div class="card">
-			<h3>Cattleya Aclandiae Tipo RA01</h3>
-			<img src="assets/CattleyaAclandiaeTipoRA01.jpg" alt="Orquídea Cattleya Aclandiae TipoRA01">
-			<p class="description">Super desconto de Black Friday! 50% de desconto!</p>
-			<span class="price">Preço: Cadastre-se.</span>
-			<button class="buy">COMPRAR</button>
+		<div class="input">
+			<label>CPF xxx.xxx.-xx</label>
+			<input id="cpf" required type="text" />
+			<span class="error"></span>
 		</div>
 
-		<div class="card">
-			<h3>Cattleya bicolor tipo venosa</h3>
-			<img src="assets/Cattleya bicolor tipo venosa.jpg" alt="Orquídea Cattleya bicolor tipo venosa">
-			<p class="description">Super desconto de Black Friday! 50% de desconto!</p>
-			<span class="price">Preço: Cadastre-se.</span>
-			<button class="buy">COMPRAR</button>
+		<div class="input">
+			<label>Tel/Cel (xx)xxxxx-xxxx</label>
+			<input id="tel" required type="text" />
+			<span class="error"></span>
 		</div>
 
-		<div class="card">
-			<h3>Cattleya Walkeriana Semi alba TokioXbatom</h3>
-			<img src="assets/Cattleya Walkeriana Semi alba TokioXbatom.jpg"
-				alt="Orquídea Cattleya Walkeriana Semi alba TokioXbatom">
-			<p class="description">Super desconto de Black Friday! 50% de desconto!</p>
-			<span class="price">Preço: Cadastre-se.</span>
-			<button class="buy">COMPRAR</button>
+		<div class="input">
+			<label>CEP xxxxx-xxx</label>
+			<input id="cep" required type="text" />
+			<span class="error"></span>
 		</div>
 
-		<div class="card">
-			<h3>Cattleya Walkeriana</h3>
-			<img src="assets/Cattleya Walkeriana tipo planta de boa armação.jpg" alt="Orquídea Cattleya Walkeriana">
-			<p class="description">Super desconto de Black Friday! 50% de desconto!</p>
-			<span class="price">Preço: Cadastre-se.</span>
-			<button class="buy">COMPRAR</button>
+		<div class="input">
+			<label>Rua</label>
+			<input id="rua" required type="text" />
+			<span class="error"></span>
 		</div>
 
-		<div class="card">
-			<h3>Cattleya Warnerialbencis Ricardo Bell</h3>
-			<img src="assets/Cattleya Warnerialbencis Ricardo Bell.jpg"
-				alt="Orquídea Cattleya Warnerialbencis Ricardo Bell">
-			<p class="description">Super desconto de Black Friday! 50% de desconto!</p>
-			<span class="price">Preço: Cadastre-se.</span>
-			<button class="buy">COMPRAR</button>
+		<div class="input">
+			<label>Nº</label>
+			<input id="num" required type="number" />
+			<span class="error"></span>
 		</div>
 
-		<div class="card">
-			<h3>Encyclia Patens</h3>
-			<img src="assets/Encyclia Patens.jpg" alt="Orquídea Encyclia Patens">
-			<p class="description">Super desconto de Black Friday! 50% de desconto!</p>
-			<span class="price">Preço: Cadastre-se.</span>
-			<button class="buy">COMPRAR</button>
+		<div class="input">
+			<label>Complemento</label>
+			<input id="comp" type="text" />
+			<span class="error"></span>
 		</div>
 
-		<div class="card">
-			<h3>Sophronitis cernua</h3>
-			<img src="assets/Sophronitis cernua.jpg" alt="Orquídea Sophronitis cernua">
-			<p class="description">Super desconto de Black Friday! 50% de desconto!</p>
-			<span class="price">Preço: Cadastre-se.</span>
-			<button class="buy">COMPRAR</button>
+		<div class="input">
+			<label>Bairro</label>
+			<input id="bairro" required type="text" />
+			<span class="error"></span>
 		</div>
 
-	</section>
+		<div class="input">
+			<label>Cidade</label>
+			<input id="cidade" required type="text" />
+			<span class="error"></span>
+		</div>
 
-	<section class="section2">
+		<div class="input">
+			<label>Estado</label>
+			<input id="estado" required type="text" />
+			<span class="error"></span>
+		</div>
 
+		<div class="input">
+			<label>Email</label>
+			<input id="email" required type="email" />
+			<span class="error"></span>
+		</div>
+
+		<span id="content"></span>
+
+		<button type="submit">Enviar</button>
+
+	</form>
+
+	<form action="" id="formProduto">
+		<h2>
+			Cadastrar produtos
+		</h2>
+
+		<div class="input">
+			<label>ID</label>
+			<input id="idProduto" required type="number" />
+			<span class="error"></span>
+		</div>
+
+		<div class="input">
+			<label>Nome</label>
+			<input id="nomeProduto" required type="text" />
+			<span class="error"></span>
+		</div>
+
+
+		<div class="input">
+			<label>Valor</label>
+			<input id="valor" required type="number" />
+			<span class="error"></span>
+		</div>
+
+		<div class="input">
+			<label>Quantidade</label>
+			<input id="qt" required type="number" />
+			<span class="error"></span>
+		</div>
+
+		<span id="contentProduto"></span>
+
+		<button type="submit">Enviar</button>
+
+	</form>
+
+	<div class="dev">
 		<div>
-			<h3>Orquídeas são todas as plantas que compõem a família Orchidaceae, pertencente à ordem Asparagales,
-				uma das maiores famílias de plantas existentes.</h3>
-				<p>Para mais informações, cadastre-se e entraremos em contato.</p>
+			<p style="font-size: 15px;">Desenvolvido por Jefferson Alves / Treinamento Hiring Coders #2 / Gama Academy /
+				2ºDesafio / Todos os direitos reservados.</p>
 		</div>
-
-		<div id="content">
-			<form action="ACTION" method="POST" class="form" id="form">
-				<label>Cadastre seu e-mail para receber promoções.</label>
-				<input type="text" name="nome" placeholder="Nome" id="nome" required>
-				<input type="email" name="email" class="input" placeholder="E-mail" id="email" required value>
-				<input type="submit" name="submit" value="ENVIAR">
-				<div id="msgemail"></div>
-			</form>
-		</div>
-
-	</section>
-
-	<footer>
-		<div class="contacts">
-			<div>
-				<img src="assets/wpp.png" alt="whatsapp">
-				<p>(32)99146-7808</p>
-			</div>
-			<div>
-				<img src="assets/map.png" alt="map">
-				<p>R. José Albuquerque de Moraes Lt3 Nova Era - JF-MG</p>
-			</div>
-			<div>
-				<a href="https://www.instagram.com/_orquideasraphaeljf/"><img src="assets/insta.png"
-						alt="instagran"></a>
-				<p>Instagran Orquídeas R.A</p>
-			</div>
-		</div>
-
-		<div class="dev">
-			<div>
-				<a href="https://www.linkedin.com/in/jefferson-alves-b23b35194/"><img src="assets/linkedin.png"
-						alt="Linkedin"></a>
-				<p>Linkedin do desenvolvedor.</p>
-			</div>
-			<div>
-				<a href="https://github.com/Jefferson-William-Alves"><img src="assets/GitHub-Logo.png" alt="GitHub"></a>
-				<p>GitHub do desenvolvedor.</p>
-			</div>
-		</div>
-
 		<div>
-			<p style="font-size: 15px;">Desenvolvido por Jefferson Alves / Treinamento Hiring Coders #2 / Gama Academy / 1ºDesafio / Todos os
-				direitos reservados.</p>
+			<a href="https://www.linkedin.com/in/jefferson-alves-b23b35194/"><img src="assets/linkedin.png"
+					alt="Linkedin"></a>
 		</div>
-	</footer>
+		<div>
+			<a href="https://github.com/Jefferson-William-Alves"><img src="assets/GitHub-Logo.png" alt="GitHub"></a>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
 </body>
-<script src="js/script.js"></script>
 
 </html>
